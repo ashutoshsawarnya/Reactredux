@@ -5,7 +5,7 @@ import {connect} from "react-redux"
 import * as action from "./redux/action/action"
 
 function App({age,onAgeUp,onAgeDown,loading}) {
-
+ console.log("Hello");
 
   return (
     <div className="App">
